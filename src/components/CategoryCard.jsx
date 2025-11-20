@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const CategoryCard = ({ category, onClick }) => {
   const nav = useNavigate();
 
-  console.log("Category in CategoryCard:", category);
+  // console.log("Category in CategoryCard:", category);
 
   // Solution 2: Convert Tailwind color classes to actual color values
   const colorValueMap = {

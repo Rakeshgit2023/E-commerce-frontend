@@ -39,7 +39,7 @@ const ParentRoute = () => {
     } else if (location.pathname === "/category/Girls%20Fashion") {
       setActiveTab("girls");
     } else {
-      console.log(location.pathname);
+      // console.log(location.pathname);
       setActiveTab("discover");
     }
   }, [location.pathname]);

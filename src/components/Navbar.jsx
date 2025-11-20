@@ -148,10 +148,6 @@ const Navbar = ({ activeTab, setActiveTab, onLogoClick }) => {
     };
   }, []);
 
-  useEffect(() => {
-    console.log(activeTab);
-  }, [activeTab]);
-
   return (
     <nav className="bg-white/80 backdrop-blur-lg border-b border-orange-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4">
