@@ -1,9 +1,9 @@
 import HomePage from "./HomePage";
 import { useEffect, useState, useCallback, useRef } from "react";
-// import { getAPI } from "@/Services";
+import { getAPI } from "@/Services";
 import { BallTriangle } from "react-loader-spinner";
-// import { toast } from "react-toastify";
-// import { showErrorToast } from "@/components/Toast";
+import { toast } from "react-toastify";
+import { showErrorToast } from "@/components/Toast";
 
 const Dashboard = () => {
   const [categories, setCategories] = useState([]);
