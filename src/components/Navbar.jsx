@@ -174,7 +174,7 @@ const Navbar = ({ activeTab, setActiveTab, onLogoClick }) => {
               >
                 Home
               </button>
-              <button
+              {/* <button
                 onClick={() => {
                   setActiveTab("boys");
                   nav("/category/Boys Fashion");
@@ -186,8 +186,8 @@ const Navbar = ({ activeTab, setActiveTab, onLogoClick }) => {
                 }`}
               >
                 Boys
-              </button>
-              <button
+              </button> */}
+              {/* <button
                 onClick={() => {
                   setActiveTab("girls");
                   nav("/category/Girls Fashion");
@@ -199,8 +199,8 @@ const Navbar = ({ activeTab, setActiveTab, onLogoClick }) => {
                 }`}
               >
                 Girls
-              </button>
-              <button
+              </button> */}
+              {/* <button
                 onClick={() => {
                   setActiveTab("specialDeals");
                   nav("/specialDeals");
@@ -212,14 +212,14 @@ const Navbar = ({ activeTab, setActiveTab, onLogoClick }) => {
                 }`}
               >
                 Special Deals
-              </button>
+              </button> */}
             </div>
           </div>
 
           <div className="flex items-center gap-4">
             {/* Search Bar with Dropdown */}
             <div className="hidden lg:block relative search-container">
-              <div className="flex items-center bg-orange-50 rounded-full px-4 py-2 gap-2 border border-orange-100">
+              {/* <div className="flex items-center bg-orange-50 rounded-full px-4 py-2 gap-2 border border-orange-100">
                 <Search size={18} className="text-orange-400" />
                 <input
                   type="text"
@@ -241,7 +241,7 @@ const Navbar = ({ activeTab, setActiveTab, onLogoClick }) => {
                     <X size={16} />
                   </button>
                 )}
-              </div>
+              </div> */}
 
               {/* Search Results Dropdown */}
               {showResults && !isSearching && searchResults.length > 0 && (
